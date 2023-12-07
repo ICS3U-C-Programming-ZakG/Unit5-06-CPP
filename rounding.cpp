@@ -53,7 +53,7 @@ int main() {
                 RoundDecimal(numOneFloat, roundDecimal);
 
                 // display answer
-                std::cout << "The decimals rounded to " << roundDecimal << " places equals: " << std::fixed << std::setprecision(2) << numOneFloat << std::endl;
+                std::cout << "The decimals rounded to " << roundDecimal << " places equals: " << numOneFloat << std::endl;
                 } else {
 
                     // tell user if invalid numbers
